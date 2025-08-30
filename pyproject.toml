@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "subtitle-for-everyone"
+version = "1.0.3"
+authors = [
+    {name = "🪙", email = "sofiyasenthilkumar@gmail.com"},
+]
+description = "Download YouTube videos and burn subtitles - made for anime enthusiasts"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["youtube", "subtitles", "video", "netflix", "whisper", "ffmpeg"]
+
+dependencies = [
+    "yt-dlp>=2023.7.6",
+    "openai-whisper==20231117",
+    "torch==2.0.1",
+    "ffmpeg-python>=0.2.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=22.0",
+    "isort>=5.0",
+    "flake8>=4.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/guider23/subplz"
+"Bug Reports" = "https://github.com/guider23/subplz/issues"
+"Source" = "https://github.com/guider23/subplz"
+
+[project.scripts]
+subplz = "subplz.cli:main"

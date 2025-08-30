@@ -1,0 +1,9 @@
+yt-dlp>=2023.7.6
+openai-whisper==20231117
+torch==2.0.1
+ffmpeg-python>=0.2.0
+tqdm>=4.65.0
+
+# Build tools (for development)
+build>=0.10.0
+twine>=4.0.0
