@@ -2,6 +2,10 @@
 
 <img width="200" height="200" alt="subplz_logo" src="https://github.com/user-attachments/assets/1403830e-b3ac-4d8a-9177-5e0c415bd885" />
 
+[![PyPI version](https://badge.fury.io/py/subtitle-for-everyone.svg)](https://pypi.org/project/subtitle-for-everyone/)
+[![Python Version](https://img.shields.io/pypi/pyversions/subtitle-for-everyone.svg)](https://pypi.org/project/subtitle-for-everyone/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 **Automatically download YouTube videos and burn clean, professional subtitles into them using AI.**
 
