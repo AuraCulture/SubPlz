@@ -16,6 +16,7 @@ Install SubPlz:
 
 Works for latest python version 3.12 (Not recommended)
 ```bash
+pip install ffmpeg (or) https://www.ffmpeg.org/download.html (Recommended and Move bin folder to path)
 pip install torch==2.5.1 torchaudio==2.5.1 torchvision==0.20.1
 pip install openai-whisper==20231117
 pip install subtitle-for-everyone --no-deps
@@ -23,6 +24,7 @@ pip install subtitle-for-everyone --no-deps
 
 Works for python 3.9 > 3.11 (Recommended)
 ```bash
+pip install ffmpeg (or) https://www.ffmpeg.org/download.html (Recommended and Move bin folder to path)
 pip install torch
 pip install openai-whisper
 pip install subtitle-for-everyone
